@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/gamer"
     tools:context=".MainActivity">
 
     <EditText
@@ -14,6 +15,10 @@
         android:ems="10"
         android:hint="Ingrese clave"
         android:inputType="textPassword"
+        android:textColor="#F6F6F6"
+        android:textColorHighlight="#0BFA02"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#00FF1A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

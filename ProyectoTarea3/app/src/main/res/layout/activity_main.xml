@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/goku"
     tools:context=".MainActivity">
 
 
@@ -12,9 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_marginTop="23dp"
         android:text="Puntaje:"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,9 +26,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="22dp"
         android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@+id/tv1"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,6 +41,8 @@
         android:ems="10"
         android:hint="Ingrese un número."
         android:inputType="number"
+        android:textColor="#FFFDFD"
+        android:textColorHint="#F6F6F6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
@@ -58,6 +64,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:text="Adivine un número entre 1 y 50"
+        android:textColor="#FBFFFB"
+        android:textColorHint="#F4F2F2"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
