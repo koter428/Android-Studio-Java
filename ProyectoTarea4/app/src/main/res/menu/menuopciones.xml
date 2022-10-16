@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/telefono"
+        android:icon="@mipmap/telefono"
+        android:title="telefono"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/camara"
+        android:icon="@mipmap/camara"
+        android:title="camara"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/correo"
+        android:icon="@mipmap/correo"
+        android:title="correo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/opcion1"
+        android:title="Opción 1" />
+    <item
+        android:id="@+id/opcion2"
+        android:title="Opción 2" />
+    <item
+        android:id="@+id/opcion3"
+        android:title="opción 3" />
+    <item
+        android:id="@+id/opcion4"
+        android:title="opción 4" />
+</menu>
