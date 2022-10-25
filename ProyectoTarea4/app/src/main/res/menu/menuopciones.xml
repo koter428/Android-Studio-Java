@@ -4,18 +4,17 @@
 
     <item
         android:id="@+id/telefono"
-        android:enabled="false"
-        android:icon="@drawable/telefono"
+        android:icon="@mipmap/telefono"
         android:title="telefono"
         app:showAsAction="always" />
     <item
         android:id="@+id/camara"
-        android:icon="@drawable/camara"
+        android:icon="@mipmap/camara"
         android:title="camara"
         app:showAsAction="always" />
     <item
         android:id="@+id/correo"
-        android:icon="@drawable/correo"
+        android:icon="@mipmap/correo"
         android:title="correo"
         app:showAsAction="always" />
     <item

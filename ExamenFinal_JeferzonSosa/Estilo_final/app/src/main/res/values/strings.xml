@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final_Estilos</string>
+    <string name="action_settings">Settings</string>
+    <string name="dataHeader">TUS
+DATOS</string>
+    <string name="nameField">Nombre</string>
+    <string name="phoneField">Teléfono</string>
+    <string name="emailField">Email</string>
+    <string name="addressField">Dirección</string>
+    <string name="optionsHeader">OPCIONES</string>
+    <string name="newsletterText">¿Deseas recibir noticias de futuros cursos de
+Android?</string>
+    <string name="sendButton">Enviar</string>
+
+</resources>

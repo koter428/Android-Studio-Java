@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void verificar(View v) {
         String clave=et1.getText().toString();
-        if (clave.equals("contraseña")) {
+        if (clave.equals("contraseñacorrecta")) {
             Intent i = new Intent(this, Actividad2.class);
             startActivity(i);
         }
